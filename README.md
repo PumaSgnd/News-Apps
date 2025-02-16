@@ -31,22 +31,14 @@ News App adalah aplikasi Flutter yang memungkinkan pengguna untuk membaca berita
    ```sh
    git clone https://github.com/username/newsapp.git
 2. **Masuk ke direktori proyek:**
-   ``cd newsapp
+   cd newsapp
 3. **Instal dependensi:**
-   ``flutter pub get
+   flutter pub get
 4. **Jalankan aplikasi di emulator atau perangkat fisik:**
-   ``flutter run
+   flutter run
 
 ## 📂 Struktur Proyek
-newsapp/
-│-- lib/
-│   │-- main.dart       // Entry point aplikasi
-│   │-- screens/        // Folder untuk halaman aplikasi
-│   │-- widgets/        // Komponen UI yang dapat digunakan kembali
-│   │-- services/       // File untuk fetching API
-│   │-- models/         // Model data berita
-│-- assets/             // Folder untuk gambar dan icon
-│-- pubspec.yaml        // Konfigurasi dependensi Flutter
+newsapp/ │-- lib/ │ ├── main.dart # Entry point aplikasi │ ├── screens/ # Folder untuk halaman aplikasi │ ├── widgets/ # Komponen UI yang dapat digunakan kembali │ ├── services/ # File untuk fetching API │ ├── models/ # Model data berita │-- assets/ # Folder untuk gambar dan icon │-- pubspec.yaml # Konfigurasi dependensi Flutter
 
 ## 🤝 Kontribusi
 Jika ingin berkontribusi dalam pengembangan aplikasi ini, silakan fork repositori ini dan buat pull request dengan perubahan yang diusulkan.
